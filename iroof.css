@@ -1,0 +1,131 @@
+/* This is the code for table  */
+/* ── Shared ── */
+.iroof-custom .cmp-desktop,.iroof-custom .cmp-mobile{box-sizing:border-box}
+.iroof-custom .cmp-desktop *,.iroof-custom .cmp-mobile *{box-sizing:border-box}
+.iroof-custom .cmp-mobile{display:none}
+@media(max-width:767px){.iroof-custom .cmp-desktop{display:none}.iroof-custom .cmp-mobile{display:block; width: 96%; margin: 0 auto;}}
+
+/* ── Desktop ── */
+.iroof-custom .cmp-desktop .cmp-d-table{background:#ffffff;border-radius:10px;height:444px;position:relative;overflow:hidden}
+.iroof-custom .cmp-desktop .cmp-d-thead{width:1216px;height:52.5px;position:absolute;left:0;top:0}
+.iroof-custom .cmp-desktop .cmp-d-hrow{background:#f9fafb;width:1216px;height:52.5px;position:absolute;left:0;top:0}
+.iroof-custom .cmp-desktop .cmp-d-th-empty{border-style:solid;border-color:rgba(0,0,0,0.1);border-width:0 0 1px 0;padding:16px;display:flex;align-items:flex-start;justify-content:flex-start;width:509.69px;height:52.5px;position:absolute;left:0;top:0}
+.iroof-custom .cmp-desktop .cmp-d-th-empty span{color:#1a1a2e;text-align:left;font-family:"NotoSans-DisplaySemiBold",sans-serif;font-size:14px;line-height:20px;font-weight:400;flex:1}
+.iroof-custom .cmp-desktop .cmp-d-th-iroof{background:#ff6633;border-style:solid;border-color:rgba(0,0,0,0.1);border-width:0 0 1px 0;padding:16px;display:flex;align-items:flex-start;justify-content:flex-start;width:238.38px;height:52.5px;position:absolute;left:509.69px;top:0}
+.iroof-custom .cmp-desktop .cmp-d-th-iroof span{color:#ffffff;text-align:center;font-family:"NotoSans-DisplaySemiBold",sans-serif;font-size:14px;line-height:20px;font-weight:400;flex:1}
+.iroof-custom .cmp-desktop .cmp-d-th-typical{background:#1a1a1a;padding:16px;display:flex;align-items:flex-start;justify-content:flex-start;width:204.55px;height:52.5px;position:absolute;left:748.06px;top:0}
+.iroof-custom .cmp-desktop .cmp-d-th-typical span{color:#ffffff;text-align:center;font-family:"NotoSans-DisplaySemiBold",sans-serif;font-size:14px;line-height:20px;font-weight:400;flex:1}
+.iroof-custom .cmp-desktop .cmp-d-th-insurance{background:#1a1a1a;padding:16px;display:flex;align-items:flex-start;justify-content:flex-start;width:263.39px;height:52.5px;position:absolute;left:952.61px;top:0}
+.iroof-custom .cmp-desktop .cmp-d-th-insurance span{color:#ffffff;text-align:center;font-family:"NotoSans-DisplaySemiBold",sans-serif;font-size:14px;line-height:20px;font-weight:400;flex:1}
+.iroof-custom .cmp-desktop .cmp-d-tbody{width:1216px;height:343px;position:absolute;left:0;top:52.34px}
+.iroof-custom .cmp-desktop .cmp-d-rows{display:flex;flex-direction:column;gap:0;align-items:flex-start;justify-content:flex-start;width:1216px;position:absolute;left:0;top:0.16px}
+.iroof-custom .cmp-desktop .cmp-d-row-white{background:#ffffff;align-self:stretch;flex-shrink:0;height:49px;position:relative}
+.iroof-custom .cmp-desktop .cmp-d-row-gray{background:#f9fafb;align-self:stretch;flex-shrink:0;height:49px;position:relative}
+.iroof-custom .cmp-desktop .cmp-d-cell-label{border-style:solid;border-color:rgba(0,0,0,0.1);border-width:0 0 1px 0;padding:0 0 1px 0;width:509.69px;height:49px;position:absolute;left:0;top:0}
+.iroof-custom .cmp-desktop .cmp-d-cell-label span{color:#1a1a2e;text-align:left;font-family:"NotoSans-Medium",sans-serif;font-size:14px;line-height:20px;font-weight:500;position:absolute;left:16px;top:13.5px}
+.iroof-custom .cmp-desktop .cmp-d-cell-iroof{background:rgba(255,102,51,0.05);border-style:solid;border-color:rgba(0,0,0,0.1);border-width:0 0 1px 0;padding:0 0 1px 0;width:238.38px;height:49px;position:absolute;left:509.69px;top:0}
+.iroof-custom .cmp-desktop .cmp-d-cell-iroof img{width:24px;height:24px;position:absolute;left:107.19px;top:12.5px;overflow:visible}
+.iroof-custom .cmp-desktop .cmp-d-cell-iroof span{color:#ff6633;text-align:center;font-family:"NotoSans-Regular",sans-serif;font-size:14px;line-height:20px;font-weight:400;position:absolute;left:50%;transform:translateX(-50%);top:12.5px}
+.iroof-custom .cmp-desktop .cmp-d-cell-typical{border-style:solid;border-color:rgba(0,0,0,0.1);border-width:0 0 1px 0;padding:0 0 1px 0;width:204.55px;height:49px;position:absolute;left:748.06px;top:0}
+.iroof-custom .cmp-desktop .cmp-d-cell-typical img{width:24px;height:24px;position:absolute;left:90.27px;top:12.5px;overflow:visible}
+.iroof-custom .cmp-desktop .cmp-d-cell-typical span{color:#666666;text-align:center;font-family:"NotoSans-Regular",sans-serif;font-size:14px;line-height:20px;font-weight:400;position:absolute;left:50%;transform:translateX(-50%);top:12.5px}
+.iroof-custom .cmp-desktop .cmp-d-cell-insurer{border-style:solid;border-color:rgba(0,0,0,0.1);border-width:0 0 1px 0;padding:0 0 1px 0;width:263.39px;height:49px;position:absolute;left:952.61px;top:0}
+.iroof-custom .cmp-desktop .cmp-d-cell-insurer img{width:24px;height:24px;position:absolute;left:119.69px;top:12.5px;overflow:visible}
+.iroof-custom .cmp-desktop .cmp-d-cell-insurer span{color:#666666;text-align:center;font-family:"NotoSans-Regular",sans-serif;font-size:14px;line-height:20px;font-weight:400;position:absolute;left:50%;transform:translateX(-50%);top:12.5px}
+
+/* ── Mobile ── */
+/* ── Mobile ── */
+.iroof-custom .cmp-mobile .cmp-m-table{background:#ffffff;border-radius:10px;overflow:hidden;width:100%;height:auto}
+.iroof-custom .cmp-mobile .cmp-m-thead{width:100%}
+.iroof-custom .cmp-mobile .cmp-m-hrow{background:#f9fafb;display:flex;align-items:center;width:100%}
+.iroof-custom .cmp-mobile .cmp-m-th-empty{border-bottom:1px solid rgba(0,0,0,0.1);padding:12px 8px;display:flex;align-items:center;justify-content:flex-start;width:37%;min-height:53px}
+.iroof-custom .cmp-mobile .cmp-m-th-empty span{color:#1a1a2e;text-align:left;font-family:"Inter-SemiBold",sans-serif;font-size:12px;line-height:16px;font-weight:600}
+.iroof-custom .cmp-mobile .cmp-m-th-iroof{background:#ff6633;border-bottom:1px solid rgba(0,0,0,0.1);padding:8px 4px;display:flex;align-items:center;justify-content:center;width:21%;min-height:56px}
+.iroof-custom .cmp-mobile .cmp-m-th-iroof span{color:#ffffff;text-align:center;font-family:"NotoSans-DisplaySemiBold",sans-serif;font-size:10px;line-height:130%;font-weight:400}
+.iroof-custom .cmp-mobile .cmp-m-th-dark{background:#1a1a1a;padding:8px 4px;display:flex;align-items:center;justify-content:center;width:21%;min-height:56px}
+.iroof-custom .cmp-mobile .cmp-m-th-dark span{color:#ffffff;text-align:center;font-family:"NotoSans-DisplaySemiBold",sans-serif;font-size:10px;line-height:130%;font-weight:400}
+.iroof-custom .cmp-mobile .cmp-m-tbody{width:100%}
+.iroof-custom .cmp-mobile .cmp-m-rows{display:flex;flex-direction:column;width:100%}
+.iroof-custom .cmp-mobile .cmp-m-row-white,.iroof-custom .cmp-mobile .cmp-m-row-gray{display:flex;align-items:center;width:100%}
+.iroof-custom .cmp-mobile .cmp-m-row-gray{background:#f9fafb}
+.iroof-custom .cmp-mobile .cmp-m-cell-label{border-bottom:1px solid rgba(0,0,0,0.1);width:37%;padding:10px 8px;display:flex;align-items:center;min-height:55px}
+.iroof-custom .cmp-mobile .cmp-m-cell-label span{color:#1a1a2e;text-align:left;font-family:"NotoSans-Medium",sans-serif;font-size:11px;line-height:16px;font-weight:500}
+.iroof-custom .cmp-mobile .cmp-m-cell-iroof{background:rgba(255,102,51,0.05);border-bottom:1px solid rgba(0,0,0,0.1);width:21%;padding:10px 4px;text-align:center}
+.iroof-custom .cmp-mobile .cmp-m-cell-iroof img{width:20px;height:20px;vertical-align:middle}
+.iroof-custom .cmp-mobile .cmp-m-cell-iroof span{color:#ff6633;font-family:"Inter-Regular",sans-serif;font-size:11px;line-height:16px;font-weight:400}
+.iroof-custom .cmp-mobile .cmp-m-cell-dark{border-bottom:1px solid rgba(0,0,0,0.1);width:21%;padding:10px 4px;text-align:center}
+.iroof-custom .cmp-mobile .cmp-m-cell-dark img{width:20px;height:20px;vertical-align:middle}
+.iroof-custom .cmp-mobile .cmp-m-cell-dark span{color:#666666;font-family:"Inter-Regular",sans-serif;font-size:11px;line-height:16px;font-weight:400}
+/* End of code for table  */
+
+
+/* Accordition Start  */
+.iroof-custom .faq-accordion{display:flex;flex-direction:column;gap:12px;font-family:"Inter",sans-serif, width: 100%}
+.iroof-custom .faq-item{background:#fff;border-radius:10px;overflow:hidden}
+.iroof-custom .faq-item summary{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;font-size:16px;font-weight:600;color:#1a1a2e;cursor:pointer;list-style:none}
+.iroof-custom .faq-item[open]{background:rgba(255,102,51,0.05)}
+.iroof-custom .faq-item summary::-webkit-details-marker{display:none}
+.iroof-custom .faq-item summary::after{content:"+";color:#ff6633;font-size:24px;font-weight:500}
+.iroof-custom .faq-item[open] summary::after{content:"−"}
+.iroof-custom .faq-item .faq-answer {
+    padding: 0 24px 20px;
+    color: rgba(26, 26, 46, 1);
+    line-height: 160% !important;
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: -14px;
+}
+
+@media(max-width:600px){
+.iroof-custom .faq-item summary{padding:16px;font-size:14px}
+.iroof-custom .faq-item .faq-answer{padding:0 16px 16px;font-size:14px}
+	
+	.iroof-custom .faq-item{
+		width: 90% !important;
+		margin: 0 auto !important;
+	}
+}
+/* Accordition End  */
+
+/* slider code start */
+.iroof-custom .irf-testimonials{display:flex;gap:16px;max-width:1216px;font-family:"Inter",sans-serif}
+.iroof-custom .irf-card{background:#fff;border-radius:10px;flex:1;overflow:hidden}
+.iroof-custom .irf-card-inner{padding:24px;display:flex;flex-direction:column;gap:12px}
+.iroof-custom .irf-stars{color:#ff6633;font-size:20px;letter-spacing:2px}
+.iroof-custom .irf-quote{color:#1a1a2e;font-size:15px;line-height:1.7;margin:0;font-style:normal}
+.iroof-custom .irf-author{color:#666;font-size:14px;font-style:normal;font-weight:500}
+@media(max-width:767px){
+.iroof-custom .irf-testimonials{flex-direction:column}
+.iroof-custom .irf-card-inner{padding:20px}
+.iroof-custom .irf-quote{font-size:14px}
+}
+
+/* slider code end  */
+
+
+/* Second fold */
+	.iroof-custom .irf-stat-card{background:rgba(255,102,51,0.05);border-radius:8px;padding:24px 8px;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;width:100%}
+	.iroof-custom .irf-stat-top{display:flex;gap:4px;align-items:center;justify-content:center;align-self:stretch}
+	.iroof-custom .irf-stat-icon{width:40px;height:40px;overflow:visible}
+	.iroof-custom .irf-stat-number{color:#ff6633;text-align:center;font-family:"NotoSans-Medium",sans-serif;font-size:40px;font-weight:500}
+	.iroof-custom .irf-stat-label{color:#777777;text-align:center;font-family:"NotoSans-Regular",sans-serif;font-size:16px;font-weight:400}
+	/* Second fold end  */
+
+	/* Everything start to finish section  */
+	.iroof-custom .irf-features{display:flex;flex-direction:column;gap:32px;width:100%}
+.iroof-custom .irf-features-row{display:flex;gap:32px;align-items:flex-start;width:100%}
+.iroof-custom .irf-feature{display:flex;gap:16px;align-items:flex-start;width:50%; align-items: center;}
+.iroof-custom .irf-feature-icon{width:48px;height:48px;flex-shrink:0}
+.iroof-custom .irf-feature-content{display:flex;flex-direction:column;gap:4px}
+.iroof-custom .irf-feature-title{color:#1a1a1a;font-family:"HelveticaNeue-Bold",sans-serif;font-size:20px;font-weight:700;line-height:1.2}
+.iroof-custom .irf-feature-desc{color:#666666;font-family:"HelveticaNeue-Regular",sans-serif;font-size:16px;line-height:1.4;font-weight:400; max-width: 300px}
+@media(max-width:767px){
+.iroof-custom .irf-features-row{flex-direction:column;gap:24px}
+.iroof-custom .irf-feature{width:100%}
+.iroof-custom .irf-feature-title{font-size:14px !important;}
+.iroof-custom .irf-feature-desc{font-size:12px !important;}
+}
+
+/* Everything start to finish end  */
