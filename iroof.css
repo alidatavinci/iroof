@@ -127,5 +127,288 @@
 .iroof-custom .irf-feature-title{font-size:14px !important;}
 .iroof-custom .irf-feature-desc{font-size:12px !important;}
 }
+/* Second fold end  */
 
-/* Everything start to finish end  */
+
+
+/* ============================================
+   iRoof Restoration – Gravity Form Custom Styles
+   Parent wrapper: .custom-form-gravity
+   ============================================ */
+
+/* ---------- FORM CONTAINER ---------- */
+/* Hide "(Required)" text, show * instead */
+/* Hide "(Required)" text, show * instead */
+/* Hide "(Required)" text, show * instead */
+
+body .custom-form-gravity .fieldwidthchange {
+	width: 100% !important;
+}
+
+body .custom-form-gravity .fieldwidthchange .gfield_radio .gchoice:not(:first-child) {
+  margin-left: -31px;
+}
+
+body .custom-form-gravity .iroof-disclaimer{
+	width: 100% !important;
+    margin-top: 20px;
+}
+}
+
+.custom-form-gravity .gfield_required {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.custom-form-gravity .gfield_required::after {
+  content: " *";
+  font-size: 14px;
+  color: #ff6633;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.custom-form-gravity .gfield_required_text {
+  display: none !important;
+}
+
+
+.custom-form-gravity .gform_wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.custom-form-gravity .gform_body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ---------- TWO-COLUMN ROWS ---------- */
+.custom-form-gravity .gform_fields {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+    row-gap: 24px !important;
+    justify-content: space-between;
+}
+
+.custom-form-gravity .iroof-name,
+.custom-form-gravity .iroof-phone,
+.custom-form-gravity .iroof-address,
+.custom-form-gravity .iroof-issue {
+  width: 50% !important;
+  padding-right: 16px;
+}
+
+.custom-form-gravity .iroof-phone,
+.custom-form-gravity .iroof-issue {
+  padding-right: 0;
+  padding-left: 16px;
+}
+
+/* Full-width fields */
+.custom-form-gravity .iroof-time,
+.custom-form-gravity .iroof-disclaimer {
+  width: 100% !important;
+}
+
+/* ---------- LABELS ---------- */
+.custom-form-gravity .gfield_label,
+.custom-form-gravity .gfield_label_before_complex {
+  color: #333333 !important;
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Required asterisk */
+.custom-form-gravity .gfield_required {
+  color: #ff6633 !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+}
+
+/* ---------- TEXT INPUTS & DROPDOWNS ---------- */
+.custom-form-gravity input[type="text"],
+.custom-form-gravity input[type="tel"],
+.custom-form-gravity input[type="email"],
+.custom-form-gravity select,
+.custom-form-gravity .ginput_container_phone input {
+  background: #f9f9f9 !important;
+  border-radius: 8px !important;
+  border: 0.8px solid #dddddd !important;
+  height: 44px !important;
+  padding: 0 13px !important;
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #333333 !important;
+  width: 100% !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: border-color 0.2s ease;
+}
+
+.custom-form-gravity input[type="text"]:focus,
+.custom-form-gravity input[type="tel"]:focus,
+.custom-form-gravity select:focus {
+  border-color: #ff6633 !important;
+}
+
+/* Dropdown styling */
+.custom-form-gravity select {
+  color: rgba(51, 51, 51, 0.7) !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23333333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 13px center !important;
+  background-size: 16px !important;
+  padding-right: 36px !important;
+  background-color: #f9f9f9 !important;
+}
+
+.custom-form-gravity select option:not(:first-child) {
+  color: #333333 !important;
+}
+
+/* ---------- PILL RADIO BUTTONS: Best time to reach you ---------- */
+.custom-form-gravity #field_2_13 .gfield_radio {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 8px !important;
+}
+
+.custom-form-gravity #field_2_13 .gfield-choice-input {
+  display: none !important;
+}
+
+.custom-form-gravity #field_2_13 .gform-field-label--type-inline {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0px 24px !important;
+  border-radius: 8px !important;
+  border: 0.8px solid #dddddd !important;
+  background: #ffffff !important;
+  color: #333333 !important;
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  margin: 0 !important;
+}
+
+.custom-form-gravity #field_2_13 .gform-field-label--type-inline:hover {
+  border-color: #ff6633 !important;
+}
+
+.custom-form-gravity #field_2_13 .gfield-choice-input:checked + .gform-field-label--type-inline {
+  background: #ff6633 !important;
+  border-color: #ff6633 !important;
+  color: #ffffff !important;
+}
+
+/* ---------- SUBMIT BUTTON ---------- */
+.custom-form-gravity .gform_footer,
+.custom-form-gravity .gform_page_footer {
+  text-align: center !important;
+  padding: 0 !important;
+  margin-top: 8px !important;
+}
+
+.custom-form-gravity #gform_submit_button_2 {
+    background: #ff6633 !important;
+    border-radius: 10px !important;
+    padding: 0px 26px !important;
+    width: 100% !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-family: "Noto Sans", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 52px !important;
+    cursor: pointer !important;
+    transition: background 0.2s ease !important;
+    text-align: center !important;
+    margin-top: 20px;
+}
+
+.custom-form-gravity #gform_submit_button_2:hover {
+  background: #e5552b !important;
+}
+
+/* ---------- DISCLAIMER (HTML Block) ---------- */
+.custom-form-gravity .iroof-disclaimer {
+  color: #666666 !important;
+  text-align: center !important;
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 15px !important;
+  font-weight: 400 !important;
+}
+
+.custom-form-gravity .iroof-disclaimer p {
+  color: #666666 !important;
+  text-align: center !important;
+  font-size: 14px !important;
+  line-height: 15px !important;
+}
+
+/* ---------- RESET GF DEFAULTS ---------- */
+.custom-form-gravity .gfield {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    width: 47% !important;
+}
+
+.custom-form-gravity .gfield_description {
+  margin-top: 0 !important;
+}
+
+/* ---------- VALIDATION ---------- */
+.custom-form-gravity .gfield_error input,
+.custom-form-gravity .gfield_error select {
+  border-color: #ff6633 !important;
+}
+
+.custom-form-gravity .validation_message {
+  color: #ff6633 !important;
+  font-size: 12px !important;
+  font-family: "Noto Sans", sans-serif !important;
+  margin-top: 4px !important;
+}
+
+.custom-form-gravity .gform_title{
+	display: none;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .custom-form-gravity .iroof-name,
+  .custom-form-gravity .iroof-phone,
+  .custom-form-gravity .iroof-address,
+  .custom-form-gravity .iroof-issue {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .custom-form-gravity .gform_wrapper {
+    padding: 20px;
+  }
+
+  .custom-form-gravity #gform_submit_button_2 {
+    font-size: 18px !important;
+    padding: 16px 24px !important;
+    line-height: 1.4 !important;
+  }
+}
+
+/* End of form */
