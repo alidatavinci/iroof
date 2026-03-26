@@ -92,9 +92,22 @@
 /* slider code start */
 .iroof-custom .irf-testimonials{display:flex;gap:16px;max-width:1216px;font-family:"Inter",sans-serif}
 .iroof-custom .irf-card{background:#fff;border-radius:10px;flex:1;overflow:hidden}
-.iroof-custom .irf-card-inner{padding:24px;display:flex;flex-direction:column;gap:12px}
-.iroof-custom .irf-stars{color:#ff6633;font-size:20px;letter-spacing:2px}
-.iroof-custom .irf-quote{color:#1a1a2e;font-size:15px;line-height:1.7;margin:0;font-style:normal}
+.iroof-custom .irf-card-inner {
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-between;
+}.iroof-custom .irf-stars{color:#ff6633;font-size:20px;letter-spacing:2px}
+.iroof-custom .irf-quote {
+    color: #1a1a2e;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    font-style: italic;
+    padding: 0;
+    border: none;
+}
 .iroof-custom .irf-author{color:#666;font-size:14px;font-style:normal;font-weight:500}
 @media(max-width:767px){
 .iroof-custom .irf-testimonials{flex-direction:column}
@@ -126,6 +139,18 @@
 .iroof-custom .irf-feature{width:100%}
 .iroof-custom .irf-feature-title{font-size:14px !important;}
 .iroof-custom .irf-feature-desc{font-size:12px !important;}
+.iroof-custom .irf-stat-number{font-size: 28px !important; }
+.iroof-custom .irf-stat-icon {
+    width: 24px !important;
+    height: 24px !important;
+}
+	.parent_thirdfold{
+		gap: 0 !important;
+	}
+	
+.iroof-custom .irf-stat-label{font-size: 11px !important;}
+.iroof-custom .irf-stat-card{padding: 11px 4px !important; width: 95% !important}
+
 }
 /* Second fold end  */
 
